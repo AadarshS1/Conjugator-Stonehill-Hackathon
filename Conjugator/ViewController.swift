@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
     
     func displayText(){
-        answerBox.text = getRawVerb()
+        answerBox.text = getPrefix() + " " + getRawVerb() + (suffix)! + "."
     }
     
     var finalWord: String?
